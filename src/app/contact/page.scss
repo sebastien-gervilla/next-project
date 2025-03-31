@@ -1,0 +1,34 @@
+#contact-page {
+    h2 {
+        margin-bottom: 32px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        width: 500px;
+
+        .form-field {
+            display: flex;
+            flex-direction: column;
+            
+            label {
+                margin-bottom: 4px;
+            }
+
+            input, textarea {
+                width: 100%;
+            }
+
+            input {
+                border-radius: 4px;
+            }
+
+            textarea {
+                border-radius: 8px;
+            }
+        }
+    }
+}
