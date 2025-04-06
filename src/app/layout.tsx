@@ -28,6 +28,7 @@ export default function RootLayout({
                             <li><Link href="/about">À propos</Link></li>
                             <li><Link href="/contact">Contact</Link></li>
                             <li><Link href="/users">Users</Link></li>
+                            <li><Link href="/blog">Blog</Link></li>
                         </ul>
                     </nav>
                     <div></div>
